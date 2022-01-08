@@ -1,13 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Old Standard TT", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* LoginPage Css here */
+.login-bg {
+  background-color: rgb(58, 58, 59);
+  color: white;
+  height: 80vh;
+}
+.login-footer-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(58, 58, 59);
+  color: white;
+}
+
+/* RegestrationPage Css here */
+.sign-bg {
+  background-color: rgb(58, 58, 59);
+  color: white;
+  height: 90vh;
+}
+
+/* HomePage Css here */
+.home-bg {
+  background-color: rgb(58, 58, 59);
+  color: white;
+}
+.btn {
+  background-color: rgb(26, 236, 250);
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(26, 236, 250);
+}
+.feature:hover {
+  box-shadow: 0 3px 10px rgb(26, 236, 250);
+}
+.home-footer-bg {
+  height: 10vh;
+  background-color: rgb(58, 58, 59);
+  color: white;
+}
+
+/* Show Pass bg */
+.bg {
+  background-color: rgb(58, 58, 59);
+  height: 90vh;
 }
